@@ -403,6 +403,23 @@
   }
 
   /* ============================================================
+     VIDEO TOGGLE (play/pause with overlay)
+     ============================================================ */
+  window.toggleVideo = function(wrapperId) {
+    var wrapper = document.getElementById(wrapperId);
+    if (!wrapper) return;
+    var video = wrapper.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+      video.play();
+      wrapper.classList.add('playing');
+    } else {
+      video.pause();
+      wrapper.classList.remove('playing');
+    }
+  };
+
+  /* ============================================================
      INIT ALL
      ============================================================ */
   function init() {

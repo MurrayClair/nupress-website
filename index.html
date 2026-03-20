@@ -80,7 +80,7 @@
           playsinline
           preload="metadata"
           poster="images/facility-floor.jpg">
-          <source src="video/hero.mp4" type="video/mp4">
+          <source src="video/Intro.mp4" type="video/mp4">
         </video>
       </div>
       <div class="hero-overlay" aria-hidden="true"></div>
@@ -197,7 +197,7 @@
             <div class="division-card-content">
               <span class="division-card-tag">AS9100D</span>
               <h3 class="division-card-title">Aerospace &amp; Defence</h3>
-              <p class="division-card-desc">Flight-critical components to AS9100D. F-35, Wedgetail, Land 400 programs. Ti-6Al-4V, Inconel 718, Al 7075.</p>
+              <p class="division-card-desc">Flight-critical components to AS9100D. Defence prime contractor programs and military aerospace platforms. Ti-6Al-4V, Inconel 718, Al 7075.</p>
               <a href="divisions/aerospace.html" class="division-card-link">
                 Learn more &#8594;
               </a>
@@ -324,6 +324,66 @@
     </section>
 
     <!-- ============================================================
+         VIDEO — MILLING
+         ============================================================ -->
+    <section class="video-section" aria-labelledby="video-milling-heading">
+      <div class="container">
+        <div class="video-section-inner">
+          <div class="video-section-text fade-in">
+            <p class="section-eyebrow">World-Class Equipment</p>
+            <h2 class="section-title" id="video-milling-heading">
+              Precision milling.<br>Mazak Integrex capability.
+            </h2>
+            <p class="section-subtitle">
+              Our Mazak Integrex mill-turn centres deliver 5-axis simultaneous machining for the most complex component geometries — reducing setups and maximising accuracy.
+            </p>
+            <a href="capabilities.html" class="btn btn-primary">View Full Equipment List</a>
+          </div>
+          <div class="video-wrapper fade-in fade-in-delay-2" id="vid-milling">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="video/First Class Manufacturing - Milling.mp4" type="video/mp4">
+            </video>
+            <div class="video-play-btn" onclick="toggleVideo('vid-milling')">
+              <div class="video-play-icon">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         VIDEO — IGX CELL
+         ============================================================ -->
+    <section class="video-section video-section-alt" aria-labelledby="video-igx-heading">
+      <div class="container">
+        <div class="video-section-inner reverse">
+          <div class="video-section-text fade-in">
+            <p class="section-eyebrow">Integrex IGX Cell</p>
+            <h2 class="section-title" id="video-igx-heading">
+              Automated cell.<br>Unmatched throughput.
+            </h2>
+            <p class="section-subtitle">
+              The Mazak Integrex IGX cell combines turning and milling in one continuous operation — delivering complex turned and milled components with tight tolerances and consistent repeatability.
+            </p>
+            <a href="divisions/aerospace.html" class="btn btn-primary">Aerospace &amp; Defence</a>
+          </div>
+          <div class="video-wrapper fade-in fade-in-delay-2" id="vid-igx">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="video/First Class Manufacturing - IGX Cell.mp4" type="video/mp4">
+            </video>
+            <div class="video-play-btn" onclick="toggleVideo('vid-igx')">
+              <div class="video-play-icon">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
          WHY CHOOSE NUPRESS
          ============================================================ -->
     <section class="why-section bg-texture" aria-labelledby="why-heading">
@@ -377,6 +437,61 @@
             <div class="why-badge">
               <span class="why-badge-value">1972</span>
               <span class="why-badge-label">Established</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         VIDEO SHOWCASE GRID
+         ============================================================ -->
+    <section class="video-strip" aria-labelledby="video-grid-heading">
+      <div class="container">
+        <header class="section-header centered">
+          <p class="section-eyebrow fade-in">First Class</p>
+          <h2 class="section-title fade-in fade-in-delay-1" id="video-grid-heading">
+            See Nupress in action
+          </h2>
+          <p class="section-subtitle fade-in fade-in-delay-2">
+            From precision machining to quality inspection — every component that leaves our Cardiff facility meets the same relentless standard.
+          </p>
+        </header>
+
+        <div class="video-grid">
+          <div class="video-card fade-in" id="vid-quality">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="video/First Class Quality.mp4" type="video/mp4">
+            </video>
+            <div class="video-card-overlay" onclick="toggleVideo('vid-quality')">
+              <div class="video-card-play">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+              </div>
+              <span class="video-card-label">First Class Quality</span>
+            </div>
+          </div>
+
+          <div class="video-card fade-in fade-in-delay-1" id="vid-people">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="video/First Class People.mp4" type="video/mp4">
+            </video>
+            <div class="video-card-overlay" onclick="toggleVideo('vid-people')">
+              <div class="video-card-play">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+              </div>
+              <span class="video-card-label">First Class People</span>
+            </div>
+          </div>
+
+          <div class="video-card fade-in fade-in-delay-2" id="vid-other">
+            <video autoplay muted loop playsinline preload="metadata">
+              <source src="video/First Class - Other Manufacturing.mp4" type="video/mp4">
+            </video>
+            <div class="video-card-overlay" onclick="toggleVideo('vid-other')">
+              <div class="video-card-play">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+              </div>
+              <span class="video-card-label">Other Manufacturing</span>
             </div>
           </div>
         </div>
