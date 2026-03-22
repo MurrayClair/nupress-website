@@ -477,9 +477,9 @@ input, textarea, select {
   inset: 0;
   background: linear-gradient(
     105deg,
-    rgba(13,17,23,0.92) 0%,
-    rgba(13,17,23,0.75) 50%,
-    rgba(13,17,23,0.55) 100%
+    rgba(248,248,248,0.95) 0%,
+    rgba(248,248,248,0.88) 50%,
+    rgba(248,248,248,0.75) 100%
   );
   z-index: 1;
 }
@@ -575,12 +575,13 @@ input, textarea, select {
 
 /* Hero Division Pills Panel */
 .hero-divisions {
-  background: rgba(22,27,34,0.85);
+  background: rgba(255,255,255,0.85);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
   padding: var(--space-xl);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
 
 .hero-divisions-title {
