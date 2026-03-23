@@ -827,7 +827,8 @@ input, textarea, select {
 .division-card-title {
   font-size: 1.25rem;
   font-weight: var(--font-weight-bold);
-  color: var(--color-text-primary);
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
   margin-bottom: var(--space-sm);
   line-height: 1.3;
 }
