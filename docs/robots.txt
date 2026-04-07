@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://murrayclair.github.io/nupress-website/sitemap.xml
